@@ -20,9 +20,7 @@ If you want to know more on my education and experience, please have a look at m
 
 ### Understanding Public Acceptability Through Multi-Channel Analysis
 
-Bla bla bla bla. Yayoooo
-
-Bla bla bla
+Developed in partnership with the OECD, the project aims at assessing public acceptability of policy reforms through online data. [Read more](/pages/publicacceptability).
 
 ### Mental Distress and Mobility in COVID-19 Recovery
 
