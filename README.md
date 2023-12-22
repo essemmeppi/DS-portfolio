@@ -6,7 +6,7 @@ Here are two bullet point lists on my education and experience. You can find mor
 
 ## Education
 
-- **Bocconi University** | MSc Public Policy (_cum laude_, 03/23)
+- **Bocconi University** $|$ MSc Public Policy (_cum laude_, 03/23)
 - **Sciences Po** | Master in Public Policy (_cum laude_, 06/22)
 - **University of Bologna** | BA Political Science (_cum laude_, 07/20)
 
