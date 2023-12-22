@@ -1,4 +1,4 @@
-# Data Science X Public Policy
+# Hi, I'm Simone Maria Parazzoli, and I work at the intersection of `data science` and `public policy`
 
 ## Education
 Junior Data Scientist @ ISI Foundation
