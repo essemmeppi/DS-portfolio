@@ -1,6 +1,6 @@
 # Hi, I'm Simone Maria Parazzoli.
 
-I'm a public policy graduate turned data scientist. I hold an MPP from Sciences Po and Bocconi University and I'm currently working at ISI Foundation, where I'm developing a dashboard for policymakers to assess reforms' public acceptability with online data.
+I'm a public policy graduate turned data scientist. I hold an MPP from Sciences Po and Bocconi University and I'm currently working at ISI Foundation, where I'm developing a dashboard for policymakers to assess reforms' public acceptability through online data.
 
 ## Education
 
