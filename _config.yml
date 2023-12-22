@@ -2,4 +2,4 @@ title: Simone Maria Parazzoli
 # logo: /assets/profilepicture.jpg
 description: At the intersection of data science and public policy
 # show_downloads: true
-theme: jekyll-theme-minimal
+remote_theme: sighingnow/jekyll-gitbook
