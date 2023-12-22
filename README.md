@@ -1,8 +1,8 @@
 # Hi, I'm Simone Maria Parazzoli.
 
-I'm a public policy graduate turned data scientist. I obtained an MPP _cum laude_ from Sciences Po and Bocconi University and I'm currently working at ISI Foundation, where I'm developing a dashboard for policymakers to assess reforms' public acceptability through online data.
+I'm a public policy graduate turned data scientist. I obtained an MPP from Sciences Po and Bocconi University (_cum laude_) and I'm currently working at [https://isi.it/en/home](ISI Foundation), where I'm developing a dashboard for policymakers to assess reforms' public acceptability through online data.
 
-For more information on my education and experience, please have a look at my resume.
+If you want to know more on my education and experience, please have a look at my resume.
 
 <!--## Education
 
