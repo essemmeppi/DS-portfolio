@@ -1,4 +1,4 @@
-# Hi, I'm Simone Maria Parazzoli.
+# Hi, I'm Simone Maria Parazzoli 👋
 
 I'm a public policy graduate turned `data scientist`. I hold an MPP from Sciences Po and Bocconi University (_cum laude_) and I'm currently a Junior Researcher at [ISI Foundation](https://isi.it/en/home), where I'm developing a dashboard for policymakers to assess reforms' public acceptability through online data.
 
