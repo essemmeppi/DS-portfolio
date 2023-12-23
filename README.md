@@ -20,7 +20,14 @@ If you want to know more on my education and experience, please have a look at m
 
 ### Understanding Public Acceptability Through Multi-Channel Analysis
 
-Developed in partnership with the OECD, the project aims at assessing public acceptability of policy reforms through online data. [Read more](/pages/publicacceptability).
+Developed in partnership with the OECD, the project aimed at assessing public acceptability of policy reforms through online data. Our main data source were media articles -- X/Twitter would have been much better, but users' data were enclosed a few weeks before the start of the project. We also used parliamentary speeches to characterise the difference between media and policymakers' discussions on the reform. We worked retrospectively on the case study of the 2023 French pension reform.
+
+To assess public acceptability we leveraged an OECD framework which identifies four main dimensions of public acceptability: economic, fairness, risk & time, and process. We operationalised it by having subject matter experts produce four lists of keywords for the dimensions, which helped us navigate the textual data (and corresponding embedding space).
+
+The main steps of the analysis were:
+- Assess how close each document (article or speech) is to each of the four dimensions public acceptability;
+- Obtain a subset of the most representative documents for each dimension and detect latent topics in it with NMF topic modeling;
+- Understand the difference in coverage between media and parliament with corpora comparison based on topic modeling.
 
 ### Mental Distress and Mobility in COVID-19 Recovery
 
