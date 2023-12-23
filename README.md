@@ -19,13 +19,12 @@ If you want to know more on my education and experience, please have a look at m
 # Data Science Projects
 
 ## Understanding Public Acceptability Through Multi-Channel Analysis
-
 Developed in partnership with the [OECD](https://www.oecd.org), the project aimed to assess public acceptability of policy reforms using online data. Our main data source was media articles -- X/Twitter would have been much better, but access to users' data was cut off a few weeks before the project started. We also used parliamentary speeches to characterise the difference between how the media and politicians discussed the reform. We worked retrospectively on the case study of the [2023 French pension reform](https://en.wikipedia.org/wiki/2023_French_pension_reform_law).
 
 To assess public acceptability, we used an OECD framework that identifies four main dimensions of public acceptability: economic, fairness, risk and time, and process. We operationalised this by having subject matter experts create four lists of keywords for the dimensions, which helped us navigate the textual data (and the corresponding embedding space).
 
 The main steps of the analysis were:
-- Assess how close each document (article or speech) is to each of the four dimensions of public acceptability (inspired by Mitra et al., [2016](https://doi.org/10.48550/arXiv.1602.01137));
+- Assess how close each document (article or speech) is to each of the four dimensions of public acceptability ([inspired by Mitra et al., 2016](https://doi.org/10.48550/arXiv.1602.01137));
   - Train Word2Vec and obtain doc embeddings calculated as the centroid of the word vectors in each document;
   - Compute the cosine similarity between the doc embeddings and each vector associated with the keywords of the four dimensions;
 - Obtain a subset of the most representative documents for each dimension and detect latent topics within them using NMF topic modelling; 
@@ -36,10 +35,9 @@ The main steps of the analysis were:
   - Assess how much each corpora covered each topic by vertically summing the weights in the doc-topic matrix of the two corpora and measuring the gap in coverage.
 
 ## Mental Distress and Mobility in COVID-19 Recovery
-
 In November 2023, we - the juniors at ISI Foundation - decided to run a 72-hour social data science hackathon. We asked seniors at ISI to share interesting datasets with us, and we ended up combining:
-- Mobility data from mobile phones in the US (Kang et al., [2020](https://www.nature.com/articles/s41597-020-00734-5));
-- Twitter posts by authors geolocated in the US (Mejova & Manikonda, [2023](https://doi.org/10.48550/arXiv.2305.11398));
+- Mobility data from mobile phones in the US ([Kang et al., 2020](https://www.nature.com/articles/s41597-020-00734-5));
+- Twitter posts by authors geolocated in the US ([Mejova & Manikonda, 2023](https://doi.org/10.48550/arXiv.2305.11398));
 - The results of a survey conducted on Facebook examining COVID-19 impact ([Salomon et al., 2021](https://pubmed.ncbi.nlm.nih.gov/34903656/));
 - Information on policy response to the pandemic (Oxford COVID-19 Government Response Tracker, [OxCGRT](https://www.nature.com/articles/s41562-021-01079-8)).
 
@@ -54,5 +52,8 @@ Using regressions, we found that self-reported mental distress, such as anxiety 
 We are finalising a paper that we will be soon publish on arXiv.
  
 ## The Office: Why you try to go beyond the first season
+In April 2023, I decided to leave the OECD Observatory of Public Sector Innovation ([OPSI](https://oecd-opsi.org)) and change my career trajectory towards data science. I wanted to get back on Python and decided to have some fun with a toy project. As a fan of The Office US and a data enthusiast who had never scraped the web, I knew there was one simple silly thing that I could do.
+
+I scraped IMDB with BeautifulSoup and extracted the rating of each episode of every season of The Office. And, _et voilà_, I had the evidence I needed. The first season consistently received low ratings. Hence, potential fans should really make an effort and get beyond the first season. Then, they will find what made everyone fall in love.
 
 ## Diving into French Presidential Discourses
