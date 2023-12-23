@@ -26,10 +26,14 @@ To assess public acceptability, we used an OECD framework that identifies four m
 
 The main steps of the analysis were
 - Assessing how close each document (article or speech) is to each of the four dimensions of public acceptability;
-  - Train Word2Vec 
-  - Obtainig doc embeddings computing the centroid of the keywords o
+  - Train Word2Vec and obtain doc embeddings calculated as the centroid of the word vectors in each document
+  - Compute cosine similarity between the doc embeddings and each vector associated to the keywords of the four dimensions
 - Obtain a subset of the most representative documents for each dimension and detect latent topics within them using NMF topic modelling;
+  - Filter relevant articles by considering the number of keywords they contained and their percentile position in the distribution of similarity with the four dimensions
+  - Explore sub-themes within each dimension by training a NMF topic model
 - Understand how the reform was discussed differently in the media and in Parliament by comparing corpora using topic modelling.
+  - Train a single NMF topic model with news media articles and parliamentary speeches
+  - Assess how much each corpora covered each topic by summing vertically the weights of the two corpora in the doc-topic matrix and measure the difference in coverage
 
 ### Mental Distress and Mobility in COVID-19 Recovery
 
