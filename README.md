@@ -37,6 +37,14 @@ The main steps of the analysis were:
 
 ## Mental Distress and Mobility in COVID-19 Recovery
 
+In November 2023, we -- the Juniors at ISI Foundation -- decided to run a 72h social data science hackathon. We asked seniors at ISI to share interesting dataset and we ended up combining:
+- Data on mobility in the US obtained from mobile phones (Kang et al., [2020](https://www.nature.com/articles/s41597-020-00734-5));
+- Textual data from Twitter (Mejova & Manikonda, [2023](https://doi.org/10.48550/arXiv.2305.11398));
+- The results of a survey run on Facebook investigating COVID-19 related behaviour ([Salomon et al., 2021](https://pubmed.ncbi.nlm.nih.gov/34903656/));
+- Information on policy response to the pandemic ([Oxford COVID-19 Government Response Tracker](https://www.nature.com/articles/s41562-021-01079-8)).
+
+
+ 
 ## The Office: Why you try to go beyond the first season
 
 ## Diving into French Presidential Discourses
