@@ -79,3 +79,5 @@ The technical pipeline involved:
 - Scraping candidates and their affiliates' tweets with [minet](https://github.com/medialab/minet);
 - Train a Word2Vec for each candidate with [gensim](https://radimrehurek.com/gensim/index.html);
 - Explore the meaning of selected keywords considering the most similar word vectors.
+
+You can find more information [here](https://github.com/essemmeppi/diving-into-french-presidential-discourses/tree/main).
