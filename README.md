@@ -23,7 +23,7 @@ Developed in partnership with the [OECD](https://www.oecd.org), the project aime
 
 To assess public acceptability, we used an OECD framework that identifies four main dimensions of public acceptability: economic, fairness, risk and time, and process. We operationalised this by having subject matter experts create four lists of keywords for the dimensions, which helped us navigate the textual data (and the corresponding embedding space).
 
-The main steps of the analysis were:
+After downloading and cleaning media data from [GDELT](https://www.gdeltproject.org) through Google BigQuery and parliamentary speeches from the open data portal of the French Parliament, the main steps of the analysis were:
 - Assess how close each document (article or speech) is to each of the four dimensions of public acceptability (inspired by [Mitra et al., 2016](https://doi.org/10.48550/arXiv.1602.01137));
   - Train Word2Vec with [gensim](https://radimrehurek.com/gensim/index.html) and obtain doc embeddings calculated as the centroid of the word vectors in each document;
   - Compute the cosine similarity between the doc embeddings and each vector associated with the keywords of the four dimensions;
