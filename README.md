@@ -28,7 +28,7 @@ The main steps of the analysis were:
   - Train Word2Vec and obtain doc embeddings calculated as the centroid of the word vectors in each document;
   - Compute the cosine similarity between the doc embeddings and each vector associated with the keywords of the four dimensions;
 
-![Public Acceptability Dimensions](/DS-portfolio/assets/img/publicacceptablity_timeseries.png)
+![Public Acceptability Dimensions](/DS-portfolio/assets/img/publicacceptability_timeseries.png)
 
 - Obtain a subset of the most representative documents for each dimension and detect latent topics within them using NMF topic modelling; 
   - Filter relevant articles by considering the number of keywords they contain and their percentile position in the distribution of similarity with the four dimensions.
