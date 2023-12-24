@@ -58,6 +58,8 @@ We used the survey's questions about feelings of depression or anxiety to obtain
 Using regressions, we found that self-reported mental distress, such as anxiety and depression, had a negative significant relationship with mobility. We also found that they Granger-caused the recovery of mobility in different states after the initial restriction was lifted. This finding suggests that mental distress may serve as a valuable proxy and predictor of mobility recovery during the relaxation phase of interventions. For this reason, mental health should be incorporated into the design of public health interventions.
 
 We are finalising a paper that will soon be published on arXiv.
+
+![Public Acceptability Dimensions](/DS-portfolio/assets/img/mobility_mentalhealth_map.png)
  
 ## The Office US: Why you try to go beyond the first season
 In April 2023, I decided to leave the OECD Observatory of Public Sector Innovation ([OPSI](https://oecd-opsi.org)) and change my career trajectory towards data science. I wanted to get back on Python and decided to have some fun with a toy project. As a fan of The Office US and a data enthusiast who had never scraped the web, I knew there was one simple silly thing that I could do.
