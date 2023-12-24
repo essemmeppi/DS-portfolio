@@ -27,6 +27,7 @@ The main steps of the analysis were:
 - Assess how close each document (article or speech) is to each of the four dimensions of public acceptability (inspired by [Mitra et al., 2016](https://doi.org/10.48550/arXiv.1602.01137));
   - Train Word2Vec and obtain doc embeddings calculated as the centroid of the word vectors in each document;
   - Compute the cosine similarity between the doc embeddings and each vector associated with the keywords of the four dimensions;
+![Public Acceptability Dimensions](/DS-portfolio/assets/img/publicacceptablity_timeseries.png)
 - Obtain a subset of the most representative documents for each dimension and detect latent topics within them using NMF topic modelling; 
   - Filter relevant articles by considering the number of keywords they contain and their percentile position in the distribution of similarity with the four dimensions.
   - Explore sub-themes within each dimension by training an NMF topic model on the four subsets of articles
