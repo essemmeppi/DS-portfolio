@@ -26,7 +26,7 @@ To assess public acceptability, we used an OECD framework that identifies four m
 After downloading and preprocessing media data from [GDELT](https://www.gdeltproject.org) through Google BigQuery and parliamentary speeches from the open data portal of the French Parliament, the main steps of the analysis were:
 - Assess how close each document (article or speech) is to each of the four dimensions of public acceptability (inspired by [Mitra et al., 2016](https://doi.org/10.48550/arXiv.1602.01137));
   - Train Word2Vec with [gensim](https://radimrehurek.com/gensim/index.html) and obtain doc embeddings calculated as the centroid of the word vectors in each document;
-  - Compute the cosine similarity between the doc embeddings and each vector associated with the keywords of the four dimensions (in the picture, the time series of the similarity with the four dimensions of 10k media articles);
+  - Compute the cosine similarity between the doc embeddings and each vector associated with the keywords of the four dimensions (in the picture, the time series of the similarity with the four dimensions of 10k media articles from selected outlets);
 
 ![Public Acceptability Dimensions](/DS-portfolio/assets/img/publicacceptability_timeseries.png)
 
