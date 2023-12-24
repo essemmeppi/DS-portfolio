@@ -42,6 +42,8 @@ After downloading and preprocessing media data from [GDELT](https://www.gdeltpro
 
 ![Public Acceptability Dimensions](/DS-portfolio/assets/img/publicacceptability_comparison.png)
 
+You can find my code for this project [here](https://github.com/essemmeppi/DS-portfolio/blob/main/code/publicacceptability_dimensions.ipynb) (identifying documents related to the four dimensions and exploring them with topic modeling) and [here](https://github.com/essemmeppi/DS-portfolio/blob/main/code/publicacceptability_corpuscomparison.ipynb) (comparing media and parliamentary corpora).
+
 ## Mental Distress and Mobility in COVID-19 Recovery
 In November 2023, we - the juniors at ISI Foundation - decided to run a 72-hour social data science hackathon. We asked seniors at ISI to share interesting datasets with us, and we ended up combining:
 - Mobility data from mobile phones in the US ([Kang et al., 2020](https://www.nature.com/articles/s41597-020-00734-5));
@@ -80,4 +82,4 @@ The technical pipeline involved:
 - Train a Word2Vec for each candidate with [gensim](https://radimrehurek.com/gensim/index.html);
 - Explore the meaning of selected keywords considering the most similar word vectors.
 
-You can find more information [here](https://github.com/essemmeppi/diving-into-french-presidential-discourses/tree/main).
+You can code and paper of this project [here](https://github.com/essemmeppi/diving-into-french-presidential-discourses/tree/main).
