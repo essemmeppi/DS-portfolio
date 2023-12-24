@@ -40,6 +40,8 @@ The main steps of the analysis were:
   - Train a single NMF topic model with media articles and parliamentary speeches
   - Assess how much each corpora covered each topic by vertically summing the weights in the doc-topic matrix of the two corpora and measuring the gap in coverage.
 
+![Public Acceptability Dimensions](/DS-portfolio/assets/img/publicacceptability_comparison.png)
+
 ## Mental Distress and Mobility in COVID-19 Recovery
 In November 2023, we - the juniors at ISI Foundation - decided to run a 72-hour social data science hackathon. We asked seniors at ISI to share interesting datasets with us, and we ended up combining:
 - Mobility data from mobile phones in the US ([Kang et al., 2020](https://www.nature.com/articles/s41597-020-00734-5));
