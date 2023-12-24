@@ -33,6 +33,9 @@ The main steps of the analysis were:
 - Obtain a subset of the most representative documents for each dimension and detect latent topics within them using NMF topic modelling; 
   - Filter relevant articles by considering the number of keywords they contain and their percentile position in the distribution of similarity with the four dimensions.
   - Explore sub-themes within each dimension by training an NMF topic model on the four subsets of articles
+
+![Public Acceptability Dimensions](/DS-portfolio/assets/img/publicacceptability_dimensions.png)
+
 - Understand how the reform was discussed differently in the media and in parliament by comparing corpora using topic modelling. 
   - Train a single NMF topic model with media articles and parliamentary speeches
   - Assess how much each corpora covered each topic by vertically summing the weights in the doc-topic matrix of the two corpora and measuring the gap in coverage.
