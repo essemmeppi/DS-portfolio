@@ -56,7 +56,7 @@ In April 2023, I decided to leave the OECD Observatory of Public Sector Innovati
 
 I scraped IMDB with BeautifulSoup and extracted the rating of each episode of every season of The Office. And, _et voilà_, I had the evidence I needed. The first season consistently received low ratings. Hence, potential fans should really make an effort and get beyond the first season. Then, they will find what made everyone fall in love with the series.
 
-![The Office Ratings](/DS-portfolio/assets/img/theoffice.png)
+![The Office Ratings](/DS-portfolio/assets/img/theoffice.png "The Office US Ratings on IMDB")
 
 ## Diving into French Presidential Discourses
 In 2022 I took the course that made me fall in love with social data science: _Diving in the Digital Public Space_ by [Jean-Philippe Cointet](https://medialab.sciencespo.fr/equipe/jean-philippe-cointet/) (Sciences Po) and [Márton Karsai](https://networkdatascience.ceu.edu/people/marton-karsai) (Central European University). For the final project, two colleagues and I studied the discourses of candidates to the 2022 French presidential elections. We were then invited to present this research at the 2022 Digital Democracy Workshop at the University of Zurich.
