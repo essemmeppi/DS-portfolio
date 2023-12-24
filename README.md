@@ -64,7 +64,7 @@ We are finalising a paper that will soon be published on arXiv.
 ## The Office US: Why you try to go beyond the first season
 In April 2023, I decided to leave the OECD Observatory of Public Sector Innovation ([OPSI](https://oecd-opsi.org)) and change my career trajectory towards data science. I wanted to get back on Python and decided to have some fun with a toy project. As a fan of The Office US and a data enthusiast who had never scraped the web, I knew there was one simple silly thing that I could do.
 
-I scraped IMDB with BeautifulSoup and extracted the rating of each episode of every season of The Office. And, _et voilà_, I had the evidence I needed. The first season consistently received low ratings. Hence, potential fans should really make an effort and get beyond the first season. Then, they will find what made everyone fall in love with the series (and you can skip some episodes of the last two seasons, just go straight to the last three episodes).
+I scraped IMDB with [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) and extracted the rating of each episode of every season of The Office. And, _et voilà_, I had the evidence I needed. The first season consistently received low ratings. Hence, potential fans should really make an effort and get beyond the first season. Then, they will find what made everyone fall in love with the series (and you can skip some episodes of the last two seasons, just go straight to the last three episodes).
 
 ![The Office Ratings](/DS-portfolio/assets/img/theoffice.png "The Office US Ratings on IMDB")
 
