@@ -41,6 +41,7 @@ After downloading and preprocessing media data from [GDELT](https://www.gdeltpro
   - Assess how much each corpora covered each topic by vertically summing the weights in the doc-topic matrix of the two corpora and measuring the gap in coverage.
 
 ![Public Acceptability Dimensions](/DS-portfolio/assets/img/corpuscomparison_parl&media.png)
+
 ![Public Acceptability Dimensions](/DS-portfolio/assets/img/corpuscomparison_left&rightmedia.png)
 
 You can find my code for this project [here](https://github.com/essemmeppi/DS-portfolio/blob/main/code/publicacceptability_dimensions.ipynb) (identifying documents related to the four dimensions and exploring them with topic modeling) and [here](https://github.com/essemmeppi/DS-portfolio/blob/main/code/publicacceptability_corpuscomparison.ipynb) (comparing media and parliamentary corpora).
