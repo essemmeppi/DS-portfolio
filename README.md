@@ -45,7 +45,7 @@ After downloading and preprocessing media data from [GDELT](https://www.gdeltpro
 You can find my code for this project [here](https://github.com/essemmeppi/DS-portfolio/blob/main/code/publicacceptability_dimensions.ipynb) (identifying documents related to the four dimensions and exploring them with topic modeling) and [here](https://github.com/essemmeppi/DS-portfolio/blob/main/code/publicacceptability_corpuscomparison.ipynb) (comparing media and parliamentary corpora).
 
 ## Mental Distress and Mobility in COVID-19 Recovery
-In November 2023, we - the juniors at ISI Foundation - decided to run a 72-hour social data science hackathon. We asked seniors at ISI to share interesting datasets with us, and we ended up combining:
+In November 2023, I organised a 72-hour social data science hackathon with the junior researchers of ISI. We asked our seniors colleagues to share interesting datasets with us, and we ended up combining:
 - Mobility data from mobile phones in the US ([Kang et al., 2020](https://www.nature.com/articles/s41597-020-00734-5));
 - Twitter posts by authors geolocated in the US ([Mejova & Manikonda, 2023](https://doi.org/10.48550/arXiv.2305.11398));
 - The results of a survey conducted on Facebook examining COVID-19 impact ([Salomon et al., 2021](https://pubmed.ncbi.nlm.nih.gov/34903656/));
@@ -57,9 +57,9 @@ We used Twitter data to quantify daily mental distress for each of the 51 states
 
 We used the survey's questions about feelings of depression or anxiety to obtain a self-reported measure of mental health at the state level. Finally, we used the OxCGRT data to know how strict the government response was each day, and thus to understand when social restrictions were relaxed.
 
-Using regressions, we found that self-reported mental distress, such as anxiety and depression, had a negative significant relationship with mobility. We also found that they Granger-caused the recovery of mobility in different states after the initial restriction was lifted. This finding suggests that mental distress may serve as a valuable proxy and predictor of mobility recovery during the relaxation phase of interventions. For this reason, mental health should be incorporated into the design of public health interventions.
+Using regressions, we found that self-reported mental distress, such as anxiety and depression, had a negative significant relationship with mobility. Further, we found that they Granger-caused the recovery of mobility in different states after the initial restriction was lifted. Hence, the changes over time of self-reported mental health significantly preceded the changes in mobility. This finding suggests that mental distress may serve as predictor of mobility recovery during the relaxation phase of interventions. As such, it matters a lot and it should be incorporated into the design of public health interventions.
 
-We are finalising a paper that will soon be published on arXiv.
+We are finalising a paper that will soon be submitted.
 
 ![Public Acceptability Dimensions](/DS-portfolio/assets/img/mobility_mentalhealth_map.png)
  
