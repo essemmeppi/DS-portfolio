@@ -59,7 +59,7 @@ We used the survey's questions about feelings of depression or anxiety to obtain
 
 Using regressions, we found that self-reported mental distress, such as anxiety and depression, had a negative significant relationship with mobility. Further, we found that they Granger-caused the recovery of mobility in different states after the initial restriction was lifted. Hence, the changes over time of self-reported mental health significantly preceded the changes in mobility. This finding suggests that mental distress may serve as predictor of mobility recovery during the relaxation phase of interventions. As such, it matters a lot and it should be incorporated into the design of public health interventions.
 
-We are finalising a paper that will soon be submitted.
+We are finalising a paper that will soon be submitted to a peer-reviewed journal.
 
 ![Public Acceptability Dimensions](/DS-portfolio/assets/img/mobility_mentalhealth_map.png)
  
