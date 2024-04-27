@@ -46,7 +46,7 @@ After downloading and preprocessing media data from [GDELT](https://www.gdeltpro
 
 You can find my code for this project [here](https://github.com/essemmeppi/DS-portfolio/blob/main/code/publicacceptability_dimensions.ipynb) (identifying documents related to the four dimensions and exploring them with topic modeling) and [here](https://github.com/essemmeppi/DS-portfolio/blob/main/code/publicacceptability_corpuscomparison.ipynb) (comparing media and parliamentary corpora).
 
-## Mental Distress and Mobility in COVID-19 Recovery
+## Mental Health and Mobility in COVID-19 Recovery
 In November 2023, I organised a 72-hour social data science hackathon with the junior researchers of ISI. We asked our seniors colleagues to share interesting datasets with us, and we ended up combining:
 - Mobility data from mobile phones in the US ([Kang et al., 2020](https://www.nature.com/articles/s41597-020-00734-5));
 - Twitter posts by authors geolocated in the US ([Mejova & Manikonda, 2023](https://doi.org/10.48550/arXiv.2305.11398));
