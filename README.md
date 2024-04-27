@@ -44,7 +44,7 @@ After downloading and preprocessing media data from [GDELT](https://www.gdeltpro
 
 ![Public Acceptability Dimensions](/DS-portfolio/assets/img/corpuscomparison_left&rightmedia.png)
 
-You can find my code for this project [here](https://github.com/essemmeppi/DS-portfolio/blob/main/code/publicacceptability_dimensions.ipynb) (identifying documents related to the four dimensions and exploring them with topic modeling) and [here](https://github.com/essemmeppi/DS-portfolio/blob/main/code/publicacceptability_corpuscomparison.ipynb) (comparing media and parliamentary corpora).
+You can find my code for this project [here](https://github.com/essemmeppi/DS-portfolio/blob/main/code/publicacceptability_dimensions.ipynb) (identifying documents related to the four dimensions and exploring them with topic modeling) and [here](https://github.com/essemmeppi/DS-portfolio/blob/main/code/publicacceptability_corpuscomparison_cmf.ipynb) (comparing media and parliamentary corpora).
 
 ## Mental Health and Mobility in COVID-19 Recovery
 In November 2023, I organised a 72-hour social data science hackathon with the junior researchers of ISI. We asked our seniors colleagues to share interesting datasets with us, and we ended up combining:
