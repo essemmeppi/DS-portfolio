@@ -21,7 +21,7 @@ If you want to know more on my education and experience, please have a look at m
 ## Understanding Public Acceptability Through Multi-Channel Analysis
 Developed in partnership with the [OECD](https://www.oecd.org), the project aimed to assess public acceptability of policy reforms using online data. Unfortunately, access to X/Twitter users' data was cut off a few weeks before the project started, hence we decided to rely on news media articles as our main data source. We also used parliamentary speeches to characterise the difference between how the media and politicians discussed the reform. We worked retrospectively on the case study of the [2023 French pension reform](https://en.wikipedia.org/wiki/2023_French_pension_reform_law).
 
-To assess public acceptability, we used an OECD framework that identifies four main dimensions of public acceptability: economic, fairness, risk and time, and process. We operationalised this by having subject matter experts create four lists of keywords for the dimensions, which helped us navigate the textual data (and the corresponding embedding space).
+To assess public acceptability, we used an OECD framework that identifies four main dimensions of public acceptability: economic, fairness, risk and time, and process. We operationalised this framework by having subject matter experts create four lists of keywords for the dimensions, which helped us navigate the textual data (and the corresponding embedding space).
 
 After downloading and preprocessing media data from [GDELT](https://www.gdeltproject.org) through Google BigQuery and parliamentary speeches from the open data portal of the French Parliament, the main steps of the analysis were:
 - Assess how close each document (article or speech) is to each of the four dimensions of public acceptability (inspired by [Mitra et al., 2016](https://doi.org/10.48550/arXiv.1602.01137));
@@ -31,13 +31,13 @@ After downloading and preprocessing media data from [GDELT](https://www.gdeltpro
 ![Public Acceptability Dimensions](/DS-portfolio/assets/img/publicacceptability_timeseries.png)
 
 - Obtain a subset of the most representative documents for each dimension and detect latent topics within them using NMF topic modelling with [scikit-learn](https://scikit-learn.org/stable/index.html); 
-  - Filter relevant articles by considering the number of keywords they contain and their percentile position in the distribution of similarity with the four dimensions;
+  - Filter relevant articles by considering the number of keywords their position in the distribution of similarity with the four dimensions;
   - Explore sub-themes within each dimension by training an NMF topic model on the four subsets of articles.
 
 ![Public Acceptability Dimensions](/DS-portfolio/assets/img/publicacceptability_dimensions.png)
 
-- Understand how the reform was discussed differently in the media and in parliament by comparing corpora using topic modelling. 
-  - Train a single NMF topic model with media articles and parliamentary speeches
+- Understand how the reform was discussed differently in the media and in parliament by comparing corpora with coupled matrix factorisation ([matcouply](https://matcouply.readthedocs.io/en/latest/) package). 
+  - Factorise with NMF topic modeling both corpora and detect latent topics;
   - Assess how much each corpora covered each topic by vertically summing the weights in the doc-topic matrix of the two corpora and measuring the gap in coverage.
 
 ![Public Acceptability Dimensions](/DS-portfolio/assets/img/publicacceptability_comparison.png)
@@ -82,4 +82,4 @@ The technical pipeline involved:
 - Train a Word2Vec for each candidate with [gensim](https://radimrehurek.com/gensim/index.html);
 - Explore the meaning of selected keywords considering the most similar word vectors.
 
-You can code and paper of this project [here](https://github.com/essemmeppi/diving-into-french-presidential-discourses/tree/main).
+You can fine the code and the paper of this project [here](https://github.com/essemmeppi/diving-into-french-presidential-discourses/tree/main).
